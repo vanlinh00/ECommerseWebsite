@@ -1,5 +1,4 @@
-import styles from './styles.modules.scss';
-
+import styles from './styles.module.scss';
 function Layout({ children }) {
     const { wrapLayout, container } = styles;
 

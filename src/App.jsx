@@ -2,10 +2,20 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import './App.css';
 
-function App() {
-    const [count, setCount] = useState(0);
+import MyFooter from '@components/Footer/Footer';
+import MyHeader from '@components/Header/Header';
+import MainLayout from '@components/Layout/Layout';
 
-    return <div> e</div>;
+function App() {
+    return (
+        <>
+            {/* <MainLayout>
+                <MyHeader /> */}
+            Content
+            {/* <MyFooter />
+            </MainLayout> */}
+        </>
+    );
 }
 
 export default App;
