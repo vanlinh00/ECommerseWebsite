@@ -9,11 +9,11 @@ import MainLayout from '@components/Layout/Layout';
 function App() {
     return (
         <>
-            {/* <MainLayout>
-                <MyHeader /> */}
-            Content
-            {/* <MyFooter />
-            </MainLayout> */}
+            <MainLayout>
+                <MyHeader />
+                Content
+                <MyFooter />
+            </MainLayout>
         </>
     );
 }
