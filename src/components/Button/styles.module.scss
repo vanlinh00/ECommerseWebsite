@@ -1,9 +1,9 @@
 @use '@styles/_mixin.module.scss' as *;
 
 .btn {
-    @include btn(300px, 44px, #fff, 0px);
+    @include btn(444px, 444px, 0px, #fff);
 }
 
 .btn2 {
-    @include btn(440px, 44px, #980000, 500%);
+    @include btn(444px, 444px, 50%, #882626);
 }
