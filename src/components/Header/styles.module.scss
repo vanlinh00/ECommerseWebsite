@@ -2,11 +2,33 @@
 @use '@styles/_variable.module.scss' as *;
 
 .containerHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    background: transparent;
+}
+
+.headerInner {
     width: 1250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
     height: 83px;
+}
+
+.groupLeft,
+.groupRight {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .boxIcon {
@@ -15,18 +37,17 @@
     width: 26px;
     height: 26px;
 }
+
 .containerMenu {
-    @include flex_box_custom(center, center, 40px);
+    @include flex_box_custom(center, center, 28px);
 }
+
 .containerBoxIcon {
     @include flex_box_custom(center, center, 20px);
 
     &:hover {
         cursor: pointer;
     }
-}
-.containerBox {
-    @include flex_box_custom(center, center, 20px);
 }
 .menu {
     cursor: pointer;
