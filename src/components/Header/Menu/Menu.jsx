@@ -21,7 +21,7 @@ function Menu({ content, href }) {
         return content;
     };
 
-    return <div> {handleRenderText(content)}</div>;
+    return <div className={menu}> {handleRenderText(content)}</div>;
 }
 
 export default Menu;
