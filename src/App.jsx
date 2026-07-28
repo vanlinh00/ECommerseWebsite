@@ -10,12 +10,11 @@ import MyButton from '@components/Button/Button';
 function App() {
     return (
         <>
-            <MyButton></MyButton>
-            {/* <MainLayout>
+            <MainLayout>
                 <MyHeader />
                 Content
-                <MyFooter />
-            </MainLayout> */}
+                {/* <MyFooter /> */}
+            </MainLayout>
         </>
     );
 }
