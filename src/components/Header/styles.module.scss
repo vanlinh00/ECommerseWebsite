@@ -12,3 +12,16 @@
     width: 26px;
     height: 26px;
 }
+.containerMenu {
+    @include flex_box_custom(center, center, 40px);
+}
+.containerBoxIcon {
+    @include flex_box_custom(center, center, 20px);
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+.containerBox {
+    @include flex_box_custom(center, center, 20px);
+}
