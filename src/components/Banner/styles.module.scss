@@ -1,15 +1,21 @@
 @use '@styles/_mixin.module.scss' as *;
 @use '@styles/_variable.module.scss' as *;
-.content {
-    @include flex_box_custom(center, center, 10px);
 
-    flex-direction: column;
-}
 .container {
     background-image: url(../../assets/images/Banner-Ecommerse.jpeg);
     min-height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* Căn khối content vào giữa chiều ngang */
+    align-items: center; /* Căn khối content vào giữa chiều dọc */
+}
+
+.content {
+    @include flex_box_custom(center, center, 10px);
+    text-align: center; /* Căn giữa toàn bộ text bên trong */
+    flex-direction: column;
 }
 .title {
     font-size: 42px;
