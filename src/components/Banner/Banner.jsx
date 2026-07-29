@@ -17,7 +17,7 @@ function Banner() {
                         width: '172px'
                     }}
                 >
-                    {/* <Button content={'Go to shop'} /> */}
+                    <Button content={'Go to shop'} />
                 </div>
             </div>
         </div>
