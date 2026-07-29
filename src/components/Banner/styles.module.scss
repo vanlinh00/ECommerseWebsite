@@ -1,0 +1,8 @@
+.container {
+    background-image: url(../../assets/images/Banner-Ecommerse.jpeg);
+    min-height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Thêm dòng này để căn giữa ảnh */
+    width: 100%; /* Đảm bảo container chiếm 100% chiều rộng */
+}
