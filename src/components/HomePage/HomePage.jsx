@@ -7,7 +7,7 @@ function HomePage() {
     return (
         <div>
             <div className={container}>
-                {/* <MyHeader /> */}
+                <MyHeader />
                 <Banner />
             </div>
         </div>
